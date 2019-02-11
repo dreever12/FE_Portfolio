@@ -1,164 +1,263 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet"  href="style.css">
-  </head>
-  <body data-spy="scroll" data-target="#menu">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dennyela Reever Portfolio</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
 
-  	<!---Start Home Section--->
-  	<div id="home">
+<body data-spy="scroll" data-target="#navbarResponsive">
 
-  	 <!--Navbar-->
-	<nav class="navbar navbar-dark navbar-expand-md fixed-top">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><img src="img/d.jpg"></a>
-			<button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#menu">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="menu">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#portfolio">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Contact">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://drive.google.com/file/d/10egVRQMcAewXP489GP9aXo2TeZi8YEUs/view?usp=sharing">Resume</a>
-					</li>
-				</ul>
+<!--- Start Home Section -->
+<div id="home">
+
+<!--- Start Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#"><img src="img/d.jpg"></a>
+	<button class="navbar-toggler" type="button" data-toggler="collapse"
+	data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="#navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#home">Home</a>
+			</li>
+			<li class="nav-item">
+					<a class="nav-link" href="#about">About Me</a>
+			</li>
+			<li class="nav-item">
+					<a class="nav-link" href="#resources">Skills</a>
+				</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#work">My Work</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://drive.google.com/file/d/1SB57C_Dv_0zkOqqkUuguUL22sZ5VUIKN/view?usp=sharing">Resume</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<!--- End Navigation-->
+
+<!--- Start Landing Page Section-->
+<div class="landing">
+	<div class="home-wrap">
+		<div class="home-inner">
+		</div>
+	</div>
+</div>
+
+<div class="caption text-center">
+	<h1>Dennyela Reever</h1>
+	<a class="btn btn-outline-light btn-lg" href="https://github.com/dreever12">Git Hub</a>
+</div>
+
+<!-- End Landing Page Section-->
+
+</div>
+<!--- End Home Section -->
+
+<!--- Start Client Section -->
+<div id="about" class="offset">
+
+<!---Start Jumbotron-->
+<div class="jumbotron">
+	<div class="col-12 text-center">
+		<h3 class="heading">About Me</h3>
+		<div class="heading-underline"></div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-12 clients">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="img/denny.JPG">	
+			</div>
+			<div class="col-md-8">
+				<blockquote>
+					<i class="fas fa-quote-left"></i>
+					Hi, Im Denny! I'm a software developer based in Cleveland Ohio. My background started in Fashion and Sales but then it took a turn! I started dabbling in UX/UI over 2 years ago which led me to software development. I completed a Cohort at Case Western University which was the best decision of my life. Software development is like a magic wand where you can imagine how you want the world to be and have the means to create it. 
+					<hr class="clients-hr">
+					<cite>&#8212; Dennyela Reever</cite>
+				</blockquote>
 			</div>
 		</div>
-	</nav>
+		</div>
+	</div><!---End Row-->
+</div><!---End Jumbotron-->
+</div>
+<!--- End Client Section -->
 
-	<!--- Start Landing Page --->
-	<div class="landing">
-		<div class="home-wrap">
-			<div class="home-inner"></div>
+<!--- Start Resources Section -->
+<div id="resources" class="offset">
+
+<div class="fixed-background">
+
+<div class="row dark text-center">
+
+	<div class="col-12">
+		<h3 class="heading">Skills</h3>
+		<div class="heading-underline"></div>
+	</div>
+
+	<div class="col-md-3 icon">
+		<h3>JQuery</h3>
+		<div class="Feature">
+			<img src="img/icons/jquery.png" alt="">
 		</div>
 	</div>
-	<!--- Start Landing Page Caption--->
-	<div class="caption center-block text-center">
-		<h3>Dennyela Reever Portfolio</h3>
-		<a class="btn btn-outline-light" href="#about">Get Started</a>
+
+	<div class="col-md-3 icon">
+		<h3>Materialize</h3>
+		<div class="Feature">
+			<img src="img/icons/materialize-css.png" alt="">
+		</div>
 	</div>
 
-  	</div>  <!-- End Home Section-->
-  	
-  	<!--- Start about Section -->
-  	<div id="about">
-  	<div class="jumbotron">
-<!--   		<h3 class="heading">About</h3>
- -->  	<div class="row">
+	<div class="col-md-3 icon">
+		<h3>MongoDB</h3>
+		<div class="Feature">
+			<img src="img/icons/mongodb.png" alt="">
+		</div>
+	</div>
 
-  		<div class="col-md-4 text-center">
-  			<h4>OVERALL</h4>
-  			<p>Full Stack Developer who loves to develop and work on creative products to help businesses succeed with their goals. I am ready and eager to work on some exciting webpages!</p>
-  		</div>
+	<div class="col-md-3 icon">
+		<h3>SQL</h3>
+		<div class="Feature">
+			<img src="img/icons/mysql.png" alt="">
+		</div>
+	</div>
 
-  		 <div class="col-md-4 text-center">
-  			<h4>Design</h4>
-  			<p>I truly believe a great Webpage design, and it's usefulness will set you apart from your competition. I carry over my years of artistic abilities, into my overall design approach. My goal is to make my design's like art, capturing the users interest.</p>
-  		</div>
-
-  		 <div class="col-md-4 text-center">
-  			<h4>EXPERIENCE</h4>
-  			<p>Focused on creating the best experience for my user's when they visit the webpage. I love creating very functional, creative, intuitive, and over all FUN webpages</p>
-  		</div>
-  		
-  	</div> <!--- End of the row--->
-  	</div> <!--- End Jumbotron -->
-  	</div> <!--- End about Section -->
-
-  
-
-<!------ Start Testimonial Section------>
-<div id="portfolio">
-
-	<h3 class="heading">Portfolio</h3>
-
-<div class="row padding">
-
-	<div class="col-md-6">
-		<div class="card text-center">
-			<img class="car-img-top" src="img/MarketPlace.jpg">
-			<div class="card-body">
-				<h4>Market Place</h4>
-				<p>Surplus Market is a space for companies to conduct business to business transactions. They are able to purchase and sell their overstocked inventory. For example, if Chase bank over purchases new computers for a site, Cleveland Clinic could purchase Chases overstocked computers for a new lab on campus and so forth. This is valuable because overall companies can save money year to year and build relationships through our site. <br/>This site will allow users to create a profile of their company which holds generic information (contact, Company name, etc.). This profile will also include (rating, number of items sold, how long they have been a member). They will be able to purchase and add new items to their profile. Our Marketplace will allow users to see ( all available items, all companies, and most popular items).</p>
-				<a class="btn btn-outline-light" href="https://surplus-market.herokuapp.com/">Site</a>
-
+	<!--- Start second Row Icons-->
+	<div class="col-md-3 icon">
+			<h3>Javascript</h3>
+			<div class="Feature">
+				<img src="img/icons/javascript.png" alt="">
 			</div>
 		</div>
-	</div>
-	<div class="col-md-6">
-		<div class="card text-center">
-			<img class="car-img-top" src="img/train.jpg">
-			<div class="card-body">
-				<h4>Train Scheduler</h4>
-				<p>I have created a train schedule application that incorporates Firebase to host arrival and departure data. This app will retrieve and manipulate this information with Moment.js. The website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
-				<a class="btn btn-outline-light" href="https://github.com/dreever12/train">Code</a>
-
-			</div>
-		</div>
-	</div>
-	<div class="col-md-6">
-		<div class="card text-center">
-			<img class="car-img-top" src="img/crystal.jpg">
-			<div class="card-body">
-				<h4>Crystal Collectorr</h4>
-				<p>This is a fun and interactive game for web browsers. The app dynamically updates the HTML pages with the jQuery library</p>
-				<a class="btn btn-outline-light" href="https://github.com/dreever12/week-4-game">Code</a>
-
-			</div>
-		</div>
-	</div>
-	<div class="col-md-6">
-		<div class="card text-center">
-			<img class="car-img-top" src="img/FF.png">
-			<div class="card-body">
-				<h4>Friend Finder</h4>
-				<p>I have built a compatibility-based "FriendFinder" application -- basically a dating app.<br> HOW IT WORKS: This full-stack site will take in results from users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. <br>
-				I used Express to handle routing and deployed this to Heroku.</p>
-				<a class="btn btn-outline-light" href="https://github.com/dreever12/friendFinder">Code</a>
-			</div>
-		</div>
-	</div>
-</div><!-- End Row-->
-</div><!-- End Testimonial Section-->
-
-<!----- Start of Contact Section ---->
-<div id="Contact">
-<div class="container-fluid footer">
-<div class="row">
-	<div class="col-md-3"></div>
-	<div class="col-md-6 text-center">
-		<img src="img/d.jpg">
-		<p>Contact Me</p>
-		<strong>Our Location</strong>
-		<p>2001 Natchez Ave<br>Cleveland Oh</p>
-		<strong>Contact info</strong>
-		<p>567-201-3006<br>dennyela.reever@gmail.com</p>
-	</div>
 	
-</div><!---End Row--->
-</div><!---End of Container Section--->
-</div><!-- End of Contact Section--->
+		<div class="col-md-3 icon">
+			<h3>React.JS</h3>
+			<div class="Feature">
+				<img src="img/icons/react.png" alt="">
+			</div>
+		</div>
+	
+		<div class="col-md-3 icon">
+			<h3>NodeJS</h3>
+			<div class="Feature">
+				<img src="img/icons/nodejs.png" alt="">
+			</div>
+		</div>
+	
+		<div class="col-md-3 icon">
+			<h3>Bootstrap</h3>
+			<div class="Feature">
+				<img src="img/icons/bootstrap-stack.png" alt="">
+			</div>
+		</div>
+	
+</div><!--- End Row Dark -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	</body>
+	<div class="fixed-wrap">
+		<div class="fixed">
+		</div>
+	</div>
+</div><!--- End Fixed Background -->
+
+</div>
+<!--- End Resources Section -->
+
+<!--- Start Feature Section -->
+<div id="work" class="offset">
+
+<!--- Start Jumbotron -->
+<div class="jumbotron">
+<div class="narrow">
+
+	<div class="col-12 text-center">
+		<h3 class="heading">Features</h3>
+		<div class="heading-underline"></div>
+	</div>
+
+	<div class="row text-center">
+		
+		<div class="col-md-4 port">
+			<div class="feature">
+				<img src="img/surplusImage.JPG" alt="" >
+				<a class="btn btn-outline-light btn-lg" href="https://surplus-market.herokuapp.com/">Surplus</a>
+				<p> This application incorporates MERN and was developed by myself and 3 other programmers. The App is a market place for business to business transactions similar to Alibaba. Languages used: React.js, MongoDB, Redux, Express, Materialize, JavaScript, Firebase, Heroku</p>
+			</div>
+		</div>
+
+		<div class="col-md-4 port">
+			<div class="feature">
+				<img src="img/triviaGame.JPG" alt="">
+				<a class="btn btn-outline-light btn-lg" href="https://dreever12.github.io/TriviaGame/">Trivia Game</a>
+				<p>This application is using JavaScript for the logic and jQuery to manipulate HTML.</p>
+			</div>
+		</div>
+
+		<div class="col-md-4 port">
+			<div class="feature">
+				<img src="img/train.JPG" alt="">
+				<a class="btn btn-outline-light btn-lg" href="https://dreever12.github.io/train/">Train</a>
+				<p>This application incorporates firebase to host arrival and departure data. The App retrieves and manipulates this data with moment.js. TS provides up to date information about various trains, arrival times, and how many minutes remain until there next arrival. Languages used: JavaScript, jQuery, Firebase, Moment.js, Bootstrap</p>
+			</div>
+		</div>
+
+	</div> <!---End Row-->
+
+</div>
+</div> 	<!--- End Jumbotron -->
+
+</div>
+<!--- End Feature Section -->
+
+
+
+<!--- Start Contact Section -->
+<div id="contact" class="offset">
+
+<footer>
+<div class="row justify-content-center">
+
+	<div class="col-md-5- text-center">
+		<img src="img/d.jpg">
+		<p>Software development is like a magic wand where you can imagine how you want the world to be and have the means to create it.</p>
+
+		<strong>Contact Info</strong>
+		<p>(567)201-3006<br> dennyela.reever@gmail.com</p>
+		<a href="#" target="_blank"></a><i class="fab fa-facebook-square"></i></>
+		<a href="#" target="_blank"></a><i class="fab fa-twitter-square"></i></a>
+		<a href="#" target="_blank"></a><i class="fab fa-instagram"></i></a>
+	</div>
+
+	<hr class="socket">
+	&copy; Dennyela Reever.
+
+</div>
+</footer>
+
+</div>
+<!--- End Contact Section -->
+
+
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
 </html>
